@@ -1,0 +1,244 @@
+.headerInner {
+    background-color: darkgray;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+.posse-menu {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: auto 75px auto auto;
+}
+
+.headerInner,
+.posse-menu,
+.basicStatus {
+    display: flex;
+}
+
+.posse-menu-item {
+    padding: 10px;
+}
+
+main {
+    padding-top: 50px;
+}
+
+.basicStatus {
+    padding: 50px 200px;
+    width: auto;
+    margin-left: 400px;
+}
+
+/* 混乱 */
+.basicStatus {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    border: solid 2px #525252;
+    padding: 16px;
+    min-width: 240px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.basicStatus:before,
+.basicStatus:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.basicStatus:before {
+    border: solid 12px transparent;
+    border-top: solid 12px #525252;
+}
+
+.balsic.basicStatus {
+    border: solid 14px transparent;
+    border-top: solid 14px #fff;
+    margin-top: -5px;
+}
+
+.basicStatus:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    left: -15px;
+    top: 20px;
+    border-right: 15px solid black;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.basicStatus-content {
+    margin: 0;
+    padding: 0;
+}
+
+.michan {
+    width: 200px;
+    height: 200px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 50%;
+}
+
+
+.basicStatus-content-menu {
+    padding: 20px 40px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    text-decoration: underline;
+}
+
+.ki,
+.ta {
+    display: inline-block;
+}
+
+.details {
+    text-align: center;
+    padding-top: 100px;
+    text-decoration: underline;
+}
+
+/* marginじゃなくて、gap.flexboxでできたかもしれない */
+.childhood {
+    width: 350px;
+    height: 450px;
+    border: double 10px;
+    margin: 150px 250px 100px 150px;
+    float: left;
+}
+
+.trying {
+    width: 350px;
+    height: 450px;
+    border: double 10px;
+    margin: 150px 150px 100px 100px;
+    float: left;
+}
+
+.trying,
+.childhood {
+    position: relative;
+}
+
+.trying-headline,
+.childhood-head {
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+
+.trying-contents,
+.childhood-contents {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: large;
+}
+
+.michan_yukata,
+.michan_childhood {
+    width: 100%;
+    opacity: 0.5;
+    width: 350px;
+    height: 450px;
+}
+
+.like {
+    width: 1000px;
+    height: 240px;
+    margin: 700px 75px;
+    padding: 15px 40px 10px 60px;
+    padding-top: 50px;
+    margin-left: 150px;
+    border: double black;
+    margin-bottom: auto;
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.lifetime {
+    text-decoration: underline;
+    ;
+    margin-top: 100px;
+    margin-left: 480px;
+}
+
+.this,
+.life {
+    display: inline-block;
+}
+
+.this {
+    margin-left: 150px;
+}
+
+table {
+    width: 650px;
+    margin: 75px auto 250px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+th,
+td {
+    border: solid;
+    height: 50px;
+    font: 100;
+}
+
+.tablecolor {
+    background-color: lightgreen;
+}
+
+.possepush {
+    margin-left: 450px;
+    text-decoration: underline;
+    margin-top: 100px;
+}
+
+.posseonepush,
+.ntent {
+    display: inline-block;
+}
+
+.posselove {
+    width: 1000px;
+    height: 240px;
+    margin: auto 75px 100px auto;
+    padding: 15px 40px 10px 60px;
+    padding-top: 50px;
+    margin-left: 150px;
+    border: solid 1px black;
+}
+
+.twitterlogo {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    position: fixed;
+    z-index: 1000;
+    height: 100px;
+}
+
+.twitterlogo {
+    border-radius: 50%;
+    overflow: hidden;
+}
