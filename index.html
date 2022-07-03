@@ -15,10 +15,15 @@
         <nav class="headerInner">
             <img src="posseロゴ.png" width="100" alt="posselogo" style="margin: 0px 0px 0px 50px ;">
             <ul class="posse-menu">
-                <li class="posse-menu-item">基本データ</li>
-                <li class="posse-menu-item">詳細 </li>
-                <li class="posse-menu-item">これまでの人生 </li>
-                <li class="posse-menu-item">POSSEの一押しポイント </li>
+                <li class="posse-menu-item"><a href="#basicdata">基本データ</a></li>
+                <li class="posse-menu-item hover-header"><a href="#syousai">詳細 <span>▼</span></a></li>
+                <ul class="hover-content">
+                    <li><a href="#a">小さい頃どんな子だったか</a></li>
+                    <li><a href="#b">POSSE外で頑張っていること</a></li>
+                    <li><a href="#c">好きな○○</a></li>
+                </ul>
+                <li class="posse-menu-item"><a href="#history">これまでの人生</a> </li>
+                <li class="posse-menu-item"><a href="#love">POSSEの一押しポイント</a> </li>
             </ul>
         </nav>
     </header>
@@ -26,7 +31,7 @@
 
     <main>
         <article>
-            <h1><span class="ki">基</span>本デー<span class="ta">タ</span></h1>
+            <h1><span class="ki" id="basicdata">基</span>本デー<span class="ta">タ</span></h1>
             <div class="basicStatus">
                 <img src="micham.jpg" class="michan" alt="michan" width="100" height="200">
                 <div class="basicStatus-content">
@@ -40,19 +45,19 @@
                 </div>
         </article>
         <article>
-            <h2 class="details">詳細</h2>
+            <h2 class="details" id="syousai">詳細</h2>
             <div class="childhood">
-                <h2 class="childhood-head">小さい頃どんな子だったか</h2>
+                <h2 class="childhood-head" id="a">小さい頃どんな子だったか</h2>
                 <p class="childhood-contents">人見知りでお母さんがいないと泣く子だった！</p>
                 <img class="michan_childhood" src="michan_childhood.jpg" alt="michan_childhood">
             </div>
             <div class="trying">
-                <h2 class="trying-headline">POSSE外で頑張ってること</h2>
+                <h2 class="trying-headline" id="b">POSSE外で頑張ってること</h2>
                 <p class="trying-contents">ABCクッキング</p>
                 <img class="michan_yukata" src="michan_yukata.jpg" alt="michan_yukata">
             </div>
             <div class="like">
-                <h3>好きな○○</h3>
+                <h3 id="c">好きな○○</h3>
                 <ul>
                     <li>好きな食べ物 卵料理全般</li>
                     <li>好きな場所 カフェ</li>
@@ -62,7 +67,8 @@
             </div>
         </article>
         <article>
-            <h2 class="lifetime"><span class="this">これ</span><span class="by">までの</span><span class="life">人生</span>
+            <h2 class="lifetime" id="history"><span class="this">これ</span><span class="by">までの</span><span
+                    class="life">人生</span>
             </h2>
             <div class="lifeTable">
                 <table frame="below">
@@ -85,7 +91,7 @@
             </div>
         </article>
         <article>
-            <h2 class="possepush"><span class="posseonepush">POSSEの一押</span>しポイント(もしくはコ</span><span
+            <h2 class="possepush" id="love"><span class="posseonepush">POSSEの一押</span>しポイント(もしくはコ</span><span
                     class="ntent">ンテンツ</span></h2>
             <div class="posselove">
             </div>
