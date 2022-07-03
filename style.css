@@ -30,58 +30,6 @@ main {
 .basicStatus {
     padding: 50px 200px;
     width: auto;
-    margin-left: 400px;
-}
-
-/* 混乱 */
-.basicStatus {
-    position: relative;
-    display: inline-block;
-    background-color: #fff;
-    border: solid 2px #525252;
-    padding: 16px;
-    min-width: 240px;
-    max-width: 100%;
-    text-align: center;
-}
-
-.basicStatus:before,
-.basicStatus:after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
-.basicStatus:before {
-    border: solid 12px transparent;
-    border-top: solid 12px #525252;
-}
-
-.balsic.basicStatus {
-    border: solid 14px transparent;
-    border-top: solid 14px #fff;
-    margin-top: -5px;
-}
-
-.basicStatus:before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 0;
-    height: 0;
-    left: -15px;
-    top: 20px;
-    border-right: 15px solid black;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-}
-
-.basicStatus-content {
-    margin: 0;
-    padding: 0;
 }
 
 .michan {
@@ -91,6 +39,13 @@ main {
     border-radius: 50%;
 }
 
+.basicStatus-content {
+    background-color: rgb(238, 192, 136);
+    width: 500px;
+    height: 330px;
+    margin-left: 100px;
+    padding: 10px 50px;
+}
 
 .basicStatus-content-menu {
     padding: 20px 40px;
@@ -167,14 +122,13 @@ h1 {
     padding: 15px 40px 10px 60px;
     padding-top: 50px;
     margin-left: 150px;
-    border: double black;
+    border: double black ;
     margin-bottom: auto;
-    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
 }
 
 .lifetime {
-    text-decoration: underline;
-    ;
+    text-decoration: underline;;
     margin-top: 100px;
     margin-left: 480px;
 }
@@ -197,14 +151,13 @@ table {
     font-size: 20px;
 }
 
-th,
-td {
+th,td{
     border: solid;
     height: 50px;
     font: 100;
 }
 
-.tablecolor {
+.tablecolor{
     background-color: lightgreen;
 }
 
@@ -229,7 +182,7 @@ td {
     border: solid 1px black;
 }
 
-.twitterlogo {
+.twitterlogo{
     position: absolute;
     bottom: 50px;
     right: 50px;
@@ -238,7 +191,7 @@ td {
     height: 100px;
 }
 
-.twitterlogo {
+.twitterlogo{
     border-radius: 50%;
     overflow: hidden;
 }
